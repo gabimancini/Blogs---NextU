@@ -1,0 +1,39 @@
+body{
+	background:  url('../img/fondo-turismo.jpg') fixed no-repeat ;  
+}
+.container{
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 10px;
+}
+.social{
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	top: 50px;
+	left: 50px;
+}
+.nav-wrapper {
+	padding-left: 10px;
+}
+.btn-floating {
+	margin-bottom: 8px;
+}
+.gallery img{
+	margin-bottom: 10px;
+}
+form{
+	padding: 10px;
+}
+.input-field label {
+     color: #000;
+     padding: 8px;
+ }
+@media screen and (max-width: 1000px) {
+	.social{
+		flex-direction: row;
+		 position: relative; 
+		 top: 0;
+		 left: 0; 
+	}
+	 
+}
